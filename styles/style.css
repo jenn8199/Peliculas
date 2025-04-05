@@ -251,6 +251,31 @@ button:hover {
 
 
 
+/* Estilos para el modo oscuro */
+.modo-oscuro {
+    background-color: #1a1a1a;
+    color: 9E8AAA;
+}
+
+
+/* Estilos para el scroll */
+#scrollTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 100;
+    font-size: 24px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #9E8AAA;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  
+
 /* Estilos para el footer */
 .footer {
     background-color: #2e1d30; /* Un tono morado oscuro similar */
