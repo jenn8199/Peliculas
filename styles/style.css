@@ -24,11 +24,42 @@ body {
 
 .contenido-index{
     position: relative;
+    padding-top: 0px; /* Ajusta según la altura de la barra */
     width: 100%;
 }
 
-.contenido-index img{
+.contenido-index img {
     width: 100%;
-    height: auto;
-    max-height: 100%;
+    height: 100%; 
+    object-fit: cover;
+}
+
+.nav {
+    position: absolute; /* Coloca el menú sobre la imagen */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro semi-transparente */
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    z-index: 1000; /* Asegura que la barra esté sobre la imagen */
+}
+
+.nav-item {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
 }
