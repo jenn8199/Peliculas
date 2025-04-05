@@ -44,7 +44,12 @@ body {
     width: 320px; /* Ancho fijo */
 }
 
-/* Estilo de los campos de entrada */
+.login-container h1 {
+    margin-bottom: 30px; /* Espacio entre el título y los campos de entrada */
+    font-size: 24px; /* Tamaño de fuente del título */
+    color: #fff; /* Color del texto */
+}
+
 input {
     width: 100%;
     padding: 10px;
@@ -66,13 +71,6 @@ button {
     border-radius: 4px;
     cursor: pointer;
     color: white;
-}
-
-.register {
-    background: #6d5678; /* Morado oscuro */
-}
-
-.login {
     background: #93748a; /* Morado más claro */
 }
 
@@ -81,22 +79,59 @@ button:hover {
 }
 
 
-/* Estilos para el index */
+
+/* Estilos para el menú */
 .nav {
-    position: absolute; /* Coloca el menú sobre la imagen */
+    position: fixed; /* Menú sobre la imagen */
     top: -12px;
-    left: 0;
-    width: 180%;
-    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro semi-transparente */
+    left: 0px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Recuadro semi-transparente */
     padding: 20px 0;
     display: flex;
-    justify-content: center;
-    z-index: 1000; /* Asegura que la barra esté sobre la imagen */
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000; 
 }
 
 .nav-item {
     list-style: none;
-    margin: 0 15px;
+    color: white;
+}
+
+.nav-left {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.nav-title {
+    font-size: 32px;
+    font-weight: bold;
+    flex-grow: 1;
+    text-align: left;
+}
+
+.nav-link-title {
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.nav-right {
+    font-size: 24px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/* Ícono de reproducción */
+.nav-play {
+    list-style: none;
+    font-size: 24px;
+    color: white;
+    text-align: left;
+    cursor: pointer;
+    right: inherit;
 }
 
 .nav-link {
@@ -107,7 +142,19 @@ button:hover {
     transition: 0.3s;
 }
 
+.nav-link i {
+    margin-left: 8px; /* Espacio entre el texto y el icono */
+}
+
+
 .nav-link:hover {
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 5px;
 }
+
+.fas{
+    right: 600px;
+    margin-left: 10px; /* Espacio entre el texto y el icono */
+}
+
+/* Estilos para el index */
