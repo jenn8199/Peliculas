@@ -1,5 +1,5 @@
 # RUFUS
-## Descripccion
+## Descripcción
 En esta plataforma de peliculas de nombre **RUFUS** se podrá encontrar contenido especialmente de terror y suspenso, así como también series k-drama, con tramas de acción y romance; en la parte superior del menú, se tendrá el botón de ***Home***, este para regresar al inicio, y el botón de ***Perfil*** que este permitirá cerrar sesión si así lo desea el usuario.
 >La primera parte con la que te encontrarás será el inicio de sesión ('login.html'), en este deberás ingresar con un correo y contraseña, si en dado caso no se cuenta con uno, hay un botón que indica que ahí podrás registrarte, te redireccionará a un apartado con un formulario en el cual podrás realizar el registro para después iniciar sesión.
 >Una vez iniciada sesión, se podrá acceder a la parte principal ('index.html'), en este aparecerá como portada la seríe o pelicula recién agregada o de estreno, que se actualiza cada semana, al bajar podrás encontrar como primera parte el pequeño catalogo de peliculas de terror, seguido de este están los k-dramas.
@@ -15,7 +15,13 @@ En esta plataforma de peliculas de nombre **RUFUS** se podrá encontrar contenid
 https://www.figma.com/design/zWlRjQsRMXErpzbfVEQBsg/Mega?node-id=0-1&t=xFLk3VNHcsselJ2g-1
 
 ## Instrucciones
->Una vez descargado desde el mismo GitHub y haber sido clonado al repositorio,
+>Una vez descargado desde el mismo GitHub, se podría aplicar de la manera en que yo suelo hacerlo.
+-Ingresar a GitHub Desktop y clonar el repositorio desde ahí, en la opción de añadir.
+-Añadir directamente una vez descargado a nuestro _Disco Local (C:)_
+├── Disco Local(C:)          
+│   └── xampp
+│        └── htdocs
+En ese mismo orden y en esa ultima carptera para poder visualizarlo con la dirección de las carpetas desde el localhost. 
 
 ## Descripción del desarrollo
 Primeramente realicé la maquetación para tener una idea clara de lo que buscaba realizar, una vez teniendo eso es más facil comensar.
