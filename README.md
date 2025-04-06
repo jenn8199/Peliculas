@@ -1,9 +1,9 @@
 # RUFUS
 ## Descripcción
 En esta plataforma de peliculas de nombre **RUFUS** se podrá encontrar contenido especialmente de terror y suspenso, así como también series k-drama, con tramas de acción y romance; en la parte superior del menú, se tendrá el botón de ***Home***, este para regresar al inicio, y el botón de ***Perfil*** que este permitirá cerrar sesión si así lo desea el usuario.
->La primera parte con la que te encontrarás será el inicio de sesión ('login.html'), en este deberás ingresar con un correo y contraseña, si en dado caso no se cuenta con uno, hay un botón que indica que ahí podrás registrarte, te redireccionará a un apartado con un formulario en el cual podrás realizar el registro para después iniciar sesión.
->Una vez iniciada sesión, se podrá acceder a la parte principal ('index.html'), en este aparecerá como portada la seríe o pelicula recién agregada o de estreno, que se actualiza cada semana, al bajar podrás encontrar como primera parte el pequeño catalogo de peliculas de terror, seguido de este están los k-dramas.
->Al seleccionar una pelicula, como podría ser la de Jeepers Creepers ('pelicula.html'), esta se redirecciona al apartado donde se encontrará una breve descripción de la misma, así como un boton que permitirá reproducir la pelicula.
+>La primera parte con la que te encontrarás será el inicio de sesión (`login.html`), en este deberás ingresar con un correo y contraseña, si en dado caso no se cuenta con uno, hay un botón que indica que ahí podrás registrarte, te redireccionará a un apartado con un formulario en el cual podrás realizar el registro para después iniciar sesión.
+>Una vez iniciada sesión, se podrá acceder a la parte principal (`index.html`), en este aparecerá como portada la seríe o pelicula recién agregada o de estreno, que se actualiza cada semana, al bajar podrás encontrar como primera parte el pequeño catalogo de peliculas de terror, seguido de este están los k-dramas.
+>Al seleccionar una pelicula, como podría ser la de Jeepers Creepers (`pelicula.html`), esta se redirecciona al apartado donde se encontrará una breve descripción de la misma, así como un boton que permitirá reproducir la pelicula.
 
 ## Imagenes 
 ![Login de RUFUS](capturas/img1.png)
@@ -17,10 +17,11 @@ https://www.figma.com/design/zWlRjQsRMXErpzbfVEQBsg/Mega?node-id=0-1&t=xFLk3VNHc
 ## Instrucciones
 >Una vez descargado desde el mismo GitHub, se podría aplicar de la manera en que yo suelo hacerlo.
 -Ingresar a GitHub Desktop y clonar el repositorio desde ahí, en la opción de añadir.
--Añadir directamente una vez descargado a nuestro _Disco Local (C:)_
+```
 ├── Disco Local(C:)          
 │   └── xampp
 │        └── htdocs
+```
 En ese mismo orden y en esa ultima carptera para poder visualizarlo con la dirección de las carpetas desde el localhost. 
 
 ## Descripción del desarrollo
@@ -77,7 +78,7 @@ Archivo `login.html` con el siguiente contenido del formulario:
     </div>
 ```
 
-Para el 'index.html' usé el siguiente contenido y acomodo de la distribución de imagenes
+Para el `index.html` usé el siguiente contenido y acomodo de la distribución de imagenes
 ```html
   <!-- Contenido principal -->
     <section class="contenido-index">
@@ -107,7 +108,7 @@ Para el 'index.html' usé el siguiente contenido y acomodo de la distribución d
   </section>
 ```
 
-Y para la última parte de la visualización de la 'pelicula.html' utilicé el siguiente contenidos
+Y para la última parte de la visualización de la `pelicula.html` utilicé el siguiente contenidos
 ```html
         <section class="container-pelicula">
         <div class="fondo-gif">
@@ -123,7 +124,7 @@ Y para la última parte de la visualización de la 'pelicula.html' utilicé el s
     </section>
 ```
 
-Cabe memcionar que de igualmera repetí el mismo footer en el apartado de 'index.html' y 'pelicula.html'
+Cabe memcionar que de igualmera repetí el mismo footer en el apartado de `index.html` y `pelicula.html`
 ```html
      <footer class="footer">
       <div class="footer-texto">
@@ -138,6 +139,7 @@ Cabe memcionar que de igualmera repetí el mismo footer en el apartado de 'index
 ```
 
 ## Estrucutra del proyecto
+```
 Peliculas/
 ├── login.html                # Página principal con el login
 ├── index.html                # Apartado principal con el index y catalogo de peliculas
@@ -146,6 +148,7 @@ Peliculas/
 │   └── script.js             # Código de js donde están las funciones
 ├── styles/
 │   └── style.css             # Estilos en css 
+```
 
 ## Problemas conocidos
 Como problemas que presenté, fueron principalmente en los botones, en el archivo de 'pelicula.html' al final de la descripción de la pelicula, no logré centrarlo acorde al texto.
@@ -153,15 +156,15 @@ Otro problema en cuestion a los botones fue en ese mismo archivo, en el menú su
 
 ## Retrospectiva 
 > _¿Qué hice bien?_ 
-'''
+```
 Considero que en la parte del diseño me quedó tal cual como lo planteé en mi maquetación en figma, utilizando las mismas imagenes, los campos, los colores y los botones.
-'''
+```
 >_¿Qué no salió bien?_
-'''
+```
 Quizá tube algo de problemas en cuestión de los botones, ya que en mi apartado de 'pelicula.html' debajo de la descripción, donde aparece mi botón de <ins>Reproducir</ins> este no logré acomodarlo centrado al texto como hubiera querido.
 También tube problemas con otro botón, en la misma parte de 'pelicula.html', en el menú superior, está la opción de perfil en unicamnete ahí en donde no realiza la función de desglozar la opción de _Perfil_.
-'''
+```
 >_¿Qué puedo hacer diferente?_
-'''
+```
 Me gustaría poder cambiar luego el formato completo, hacer un mejor diseño, acomodo de todo el contenido, agregar y mejorar el catalogo, agregar un apartado de busqueda y por categorias, un menú más atractivo y dinamico, agregar quizá algo de animación en la parte de atrás de la página. 
-'''
+```
